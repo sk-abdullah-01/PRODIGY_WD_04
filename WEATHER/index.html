@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" type="x-icon" href="images/cloud.ico">
+    <title>WEATHER WEB</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">WEATHER WEB</h1>
+            <div class="search">
+                <input type="text" placeholder="Enter your Location" spellcheck="false">
+                <button><img src="images/search.png" alt="search"></button>
+            </div>
+        </div>
+        <div class="error">
+            <p>Invalid Location</p>
+        </div>
+
+        <div class="weather">
+            <img src="images/rainy.png" alt="rain" class="weather-icon">
+            <h1 class="temperature"></h1>
+            <h2 class="Location">USA</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="humidity">
+                    <div>
+                        <p class="humidity">60%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                        <p class="wind">20 km/hr</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

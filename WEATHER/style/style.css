@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: black url('../images/small-clouds-with-sun_.avif');
+    background-size: cover;
+}
+
+.container{
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(to right, #1a73e8, #9b41e1);
+    color: white;
+    margin: 50px auto 0;
+    border-radius: 30px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 0 0 20px black;
+}
+
+.header{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    height: 60px;
+    border-radius: 25px;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: white;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    margin: 2px 15px 2px 12px ;
+    width: 30px;
+}
+
+.weather-icon{
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto auto;
+}
+
+.weather h1{
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.weather h2 {
+    font-size: 4vw;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity{
+    font-size: 30px;
+    margin-top: -6px;
+}
+
+.wind{
+    font-size: 30px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
